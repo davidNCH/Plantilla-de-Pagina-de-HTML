@@ -1,0 +1,35 @@
+@import url(../css/estiloprincipal.css);
+@import url(../css/menu.css);
+@import url(../css/info.css);
+
+#info .contenedor img{
+    width: 180px;
+    height: 250px;
+   margin: 15px;
+	height: 180px;
+	border-radius: 50%;
+	border:7px solid #fff;
+}
+ /*
+#info .contenedor ,.img1{
+ position:relative;
+    overflow: hidden;
+    background: rgba(31,31,31,0.9);
+   transition:  0.2s;
+    opacity: 0;
+}
+#info .contenedor ,.img1:hover{
+    opacity:1;
+}
+
+ #info .contenedor, .img1 ,.parrafo{
+    position: relative;
+    font-size: 20px;
+     margin-left: -70px;  
+     text-align: inherit;
+}
+#info .contenedor, .img1,.parrafo:hover{
+    margin-left: 70px;
+    
+}
+*/

@@ -1,0 +1,140 @@
+
+@import url(../css/menu.css);
+@import url(../css/footer.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    background-size: 100vw 100vh;
+    /*background: #204862;*/
+}
+form {
+    margin:30%;
+    margin-top: 7%;
+}
+.formulario{
+    margin: auto;
+}
+
+
+.registrar{
+    width: 100%;
+    max-width: 450px;/*450*/
+    padding-top: 20px; /*jojo*/
+    padding-bottom: 2px;
+    border-radius: 7px; 
+    box-sizing: content-box;
+    padding: 0; /*borde d for*/
+    background: rgba(0,1,0,0.1);
+    
+}
+
+.titulo_formulario{
+    background: deepskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid crimson;
+    
+}
+.contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    
+}
+input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+}
+.input-48{
+    width: 100%;/*48*/
+}
+.input-100{
+    width: 100%;
+}
+
+.enviar{
+    background: crimson;
+    width: 100%;
+    color: #FFF;
+    font-family: monospace;
+    font-size: 19px;
+    margin: auto;
+    padding: 10px ;
+    cursor: pointer;
+    border: none;
+    border-radius: 9px;
+    margin-left: 6%;
+    margin-right: 6%;
+    
+}
+.enviar:active{
+    transform: scale(1.05);
+}
+.formulario_link {
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 18px; 
+    
+}
+p ,a{
+     text-decoration: inherit;
+    color: darkred;
+}
+.formulario_link a:hover{
+    color: darkcyan;
+}
+
+
+@media (max-height: 480px){
+	/*estilos condicionales*/
+    .formulario{
+        width: 90%;
+        padding: 10%;
+    }
+   /* form{
+		width: 70%;
+        margin: auto;
+	}*/
+}
+@media(max-height:720px )
+{
+    .formulario{
+        width: 70%;
+          padding: 9%;
+    }
+   /* form{
+        width: 90%;
+    }*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

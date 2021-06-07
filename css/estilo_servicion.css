@@ -1,0 +1,51 @@
+@import url(../css/estiloprincipal.css);
+@import url(../css/menu.css);
+@import url(../css/info.css);
+
+
+body{
+    background-color:azure;
+}
+p{
+    font-size: 14px;
+    font-family: monospace;
+    text-align: justify;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+h2{
+     font-size: 18px;
+    font-family: monospace;
+  
+}
+#bloque h3{
+	text-align: center;
+}
+
+#bloque .contenedor{
+	display: flex;
+	flex-wrap: wrap; /*los articulos sean mas flexibles*/
+      display: relative;
+
+}
+#bloque .contenedor article , img{
+  justify-content: center;
+     margin-left: 10%;
+}
+
+
+#bloque article{
+	margin:15px;
+
+}
+#bloque article img{
+    border-radius: 4px;
+	width: 100%;
+	max-width:460px;
+}
+#bloque #contenedor ,article ,img h4{
+    font-size: 19px;
+    color: black;
+    font-family: monospace;
+    font-style: italic;
+}

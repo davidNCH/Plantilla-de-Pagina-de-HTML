@@ -1,0 +1,129 @@
+@import url(../css/menu.css);
+@import url(../css/footer.css);
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+	padding: 0;
+	background-image: url(../img/fondo.jpg);
+	background-size: 100vw 100vh;/*H Y A d la ventna
+	background-attachment: fixed; para img s qde fija*/
+    font-family: monospace;
+
+}
+
+ .formulario 
+{
+	margin: auto;
+    padding: 15%;
+    
+  /* margin-bottom: 2px;
+    padding-bottom: 2px;*/
+ 
+  
+}
+/*arreglar esta cosa*/
+form{
+    margin: 0;
+    padding: 0;
+    max-width: 50%;
+}
+.formulario form
+{
+
+    width: 450px;
+    margin: auto;
+    background:rgba(0,1,1,0.2);
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+    
+}
+
+.tituloh2{
+    padding: 17px;
+    margin-bottom: 9px;
+    font-weight: 100;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid crimson;
+	color: #fff;
+    background: deepskyblue;
+    text-align: center;
+	font-size:27px;
+}
+
+.formucontacto{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+
+input, textarea{
+    padding: 8px;
+    margin: 5px;
+	width: 100%;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 7px; 
+    font-family: monospace;
+    font-size: 17px;
+
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+
+}
+#boton{
+    padding: 20px;
+	/*background:  linear-gradient(#ffda63, #ffb940); */
+    background: crimson;
+	color:#fff;
+    /*opacity: 0.8;*/
+    cursor: pointer;
+    font-size: 25px;
+    max-width: 90%;
+    margin-left: 5%;
+   
+}
+#boton:hover{
+	opacity: 1;
+}
+
+
+@media (max-width:768px){
+  form{
+        width: 75%; 
+      
+    }
+    #boton{
+        max-height: 5%;
+        padding-bottom: 15px;
+        font-size: 20px;
+        
+    }
+   
+}
+@media (max-width:480px){
+    form{
+        width: 90%;
+    }
+     #boton{
+        max-height: 5%;
+         padding-bottom: 15px;
+         font-size: 20px; 
+    }
+}
+
+

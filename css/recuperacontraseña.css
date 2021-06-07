@@ -1,0 +1,128 @@
+@import url(../css/estiloprincipal.css);
+@import url(../css/menu.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-size: 100vw 100vh;
+    background: ; /*#204862*/
+}
+
+form {
+    margin: 35%;
+    max-width: 450px;;
+    margin-top: 10%;
+    border-color: white; 
+    background: rgba(0,1,0,0.5);
+    border-radius: 7px;
+}
+
+
+.furmocontacto{
+    width: 90%;
+    max-width: 450px;/*450*/
+    padding-top: 20px; /*jojo*/
+    padding-bottom: 2px;
+    border-radius: 7px; 
+    box-sizing: content-box;
+    padding: 0; /*borde d for*/
+   
+    background: black;  
+}
+
+.tituloh2{
+    background: deepskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid crimson;
+    
+}
+
+
+input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 8px; 
+    border: none;
+    margin: 5px;
+    max-width: 395px;
+
+}
+
+.enviar{
+    background: crimson;
+    width: 70%;
+    color: #FFF;
+    font-family: monospace;
+    font-size: 21px;
+    padding: 10px ;
+    cursor: pointer;
+    border: none;
+    border-radius: 9px;
+    max-width: 250px;
+    margin-left:  90px;
+    margin-right: 120px;
+   
+}
+.enviar:active{
+    transform: scale(1.05);
+}
+h3{
+    color: #FFF;
+    padding-left: 23px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.formucontacto  a{
+    color: #fff;
+    text-decoration-line: none;
+    font-size:16px;
+    font-family: monospace;
+    margin: 2%;
+   
+}
+
+
+@media (max-height: 570px){
+	/*estilos condicionales*/
+    .formucontacto{
+        width: 90%;
+        padding: 1%;
+        margin: 1px;
+    }
+    input {
+        width: 100%;
+        border: 0px;
+    }
+    .enviar{
+        margin: 5;
+        max-width: 180px;
+        padding: 2px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

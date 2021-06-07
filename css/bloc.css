@@ -1,0 +1,23 @@
+#bloc h3 , h4{
+	text-align: center;
+}
+
+#bloc .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap; /*los articulos sean mas flexibles*/
+
+}
+
+#bloc article{
+	margin:15px;
+
+}
+#bloc img{
+	width: 100%;
+	max-width: 280px;
+}
+/* para la trasnparencia  hover
+img{
+    filter:opacity(.5);
+}*/
